@@ -1,0 +1,140 @@
+.todo-item{
+    background: #ffffff;
+    border-radius: 4px;
+}
+.actions {
+    position: relative;
+    cursor: pointer;
+}
+
+.actions__label{
+    min-width: 20px;
+    text-align: center;
+}
+.actions__label:before{
+    display: block;
+    content: '\2807';
+    transform: translate(15%,0);
+}
+
+.actions:hover .actions__btns{
+    opacity: 1;
+    visibility: visible;
+}
+
+.actions__btns{
+    position: absolute;
+    top: calc(100% + 5px);
+    background: #ffffff;
+    padding: .5em 0;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .25);
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+    z-index: 100;
+}
+.actions__btn{
+    border:none;
+    background:transparent;
+    display: flex;
+    width: 100%;
+    padding: .25em .5em;
+    outline: none !important;
+    transition: .4s background-color;
+}
+
+.actions__btn:hover{
+    background: #f6f6f6;
+}
+
+.actions__btn .text{
+    text-align: left;
+    margin: 0 0 0 1em;
+    flex: 1 0 auto;
+}
+
+.edit-icon {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: rotate(-45deg) scale(.7) translate(0,6px);
+    width: 14px;
+    height: 4px;
+    border-right: 2px solid transparent;
+    box-shadow:
+        0 0 0 2px,
+        inset -2px 0 0;
+    border-top-right-radius: 1px;
+    border-bottom-right-radius: 1px;
+    margin-right: -2px
+}
+.edit-icon::after,
+.edit-icon::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute
+}
+.edit-icon::before {
+    background: currentColor;
+    border-left: 0;
+    right: -6px;
+    width: 3px;
+    height: 4px;
+    border-radius: 1px;
+    top: 0
+}
+.edit-icon::after {
+    width: 8px;
+    height: 7px;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-right: 7px solid;
+    left: -11px;
+    top: -2px
+}
+
+.delete-icon {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(.7);
+    width: 10px;
+    height: 12px;
+    border: 2px solid transparent;
+    box-shadow:
+    0 0 0 2px currentColor,
+    inset -2px 0 0 currentColor,
+    inset 2px 0 0 currentColor;
+    border-bottom-left-radius: 1px;
+    border-bottom-right-radius: 1px;
+    margin-top: 4px
+}
+   
+.delete-icon::after,
+.delete-icon::before {
+content: "";
+display: block;
+box-sizing: border-box;
+position: absolute
+}
+
+.delete-icon::after {
+background: currentColor;
+border-radius: 3px;
+width: 16px;
+height: 2px;
+top: -4px;
+left: -5px
+}
+
+.delete-icon::before {
+width: 10px;
+height: 4px;
+border: 2px solid;
+border-bottom: transparent;
+border-top-left-radius: 2px;
+border-top-right-radius: 2px;
+top: -7px;
+left: -2px
+} 

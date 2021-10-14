@@ -1,0 +1,11 @@
+.todo-list {
+    background: #d5e4ff;
+    transition: background-color .4s;
+}
+.todo-list_dragged-over {
+    background: #aac7ff;
+}
+
+.todo-list__header{
+    min-height: 3.5em;
+}

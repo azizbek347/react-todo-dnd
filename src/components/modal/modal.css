@@ -1,0 +1,42 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,.2);
+    overflow: hidden;
+}
+
+.modal-content{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 360px;
+}
+
+.close-btn{
+    display: flex;
+    border: 0;
+    background: transparent;
+}
+
+.close-btn:focus,
+.close-btn:hover{
+    color: #495057;
+    background-color: #fff;
+    outline: 0;
+    border-radius: 3px;
+    box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%);
+}
+
+.form-control{
+    height: auto;
+    padding: .25em;
+    line-height: 1;
+}
+
+textarea.form-control{
+    resize: none;
+}
