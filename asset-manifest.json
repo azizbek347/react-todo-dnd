@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/azizbek347/react-todo-dnd/static/css/main.85e76026.chunk.css",
+    "main.js": "/azizbek347/react-todo-dnd/static/js/main.7b179b71.chunk.js",
+    "main.js.map": "/azizbek347/react-todo-dnd/static/js/main.7b179b71.chunk.js.map",
+    "runtime-main.js": "/azizbek347/react-todo-dnd/static/js/runtime-main.dfc14e3a.js",
+    "runtime-main.js.map": "/azizbek347/react-todo-dnd/static/js/runtime-main.dfc14e3a.js.map",
+    "static/js/2.91ff9637.chunk.js": "/azizbek347/react-todo-dnd/static/js/2.91ff9637.chunk.js",
+    "static/js/2.91ff9637.chunk.js.map": "/azizbek347/react-todo-dnd/static/js/2.91ff9637.chunk.js.map",
+    "index.html": "/azizbek347/react-todo-dnd/index.html",
+    "static/css/main.85e76026.chunk.css.map": "/azizbek347/react-todo-dnd/static/css/main.85e76026.chunk.css.map",
+    "static/js/2.91ff9637.chunk.js.LICENSE.txt": "/azizbek347/react-todo-dnd/static/js/2.91ff9637.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dfc14e3a.js",
+    "static/js/2.91ff9637.chunk.js",
+    "static/css/main.85e76026.chunk.css",
+    "static/js/main.7b179b71.chunk.js"
+  ]
+}
